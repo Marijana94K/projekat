@@ -1,0 +1,46 @@
+header {
+background-image: url(download.jpg);
+background-size: 100%;
+background-position: 0%;
+background-repeat: no-repeat;
+background-color: aquamarine;
+opacity: 0.6;
+height: 100%;
+padding: 111px;
+font-size: 30px;
+font-family: sans-serif;
+font-style: oblique;
+text-align: center;
+color: white;
+}
+
+div {
+  width: 40%;
+font-family: sans-serif;
+text-align: center;
+position: relative ;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px auto;
+
+}
+
+img {
+    float:right;
+}
+
+aside {
+    width: 20%;
+    font-family: sans-serif;
+    text-align: right;
+   position: relative;
+   margin: 0px auto;
+   
+   }
+
+footer {
+    padding-top: 20%;
+    clear:both;
+
+}
