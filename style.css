@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: normal;
+}
 header {
 background-image: url(download.jpg);
 background-size: 100%;
@@ -14,33 +21,84 @@ text-align: center;
 color: white;
 }
 
-div {
-  width: 40%;
-font-family: sans-serif;
+main{
+    display:flex;
+}
+.leftContainer{
+    width: 45%;
+    padding: 50px;
+}
+.leftContainer .article{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+.leftContainer .article .articleContent{
+    display:flex;
+}
+.leftContainer .article .articleContent .articleText{
+    width:50%;
+    padding: 20px;
+}
+.leftContainer .article .articleContent .articleImage{
+    max-width: 50%;
+    padding: 20px;
+}
+.article h2{
+    font-size: 2em;
+}
+.authorBox{
+    display:flex;
+    margin-top: 3%;
+}
+.authorImage{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    margin-right: 5px;
+}
+
+
+.tags p{
+    background-color: hsl(133, 99%, 48%);
+    margin: 40px;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20%;
+    align-items: flex-start;
+}
+.tags h4{
+    text-align: center;
+    margin-bottom: 30%;
+    margin-top: 30%;
+}
+
+
+.rightConatiner{
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    margin-bottom: 30%;
+
+}
+.recommendedPosts h3 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+.recommendedPosts p {
+    width: 70%;
+    padding: 3%;
+}
+.pageNav p{
 text-align: center;
-position: relative ;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 5px auto;
-
+margin:-15%;
 }
-
-img {
-    float:right;
-}
-
-aside {
-    width: 20%;
-    font-family: sans-serif;
-    text-align: right;
-   position: relative;
-   margin: 0px auto;
-   
-   }
-
-footer {
-    padding-top: 20%;
-    clear:both;
-
-}
+ a {
+     text-decoration: none;
+     color:rgb(1, 18, 250);
+     margin: 0.2%;
+ }
